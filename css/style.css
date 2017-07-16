@@ -1,16 +1,9 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 html, body {
   background: #fff;
 }
 
 body {
-  font-family: "Roboto", arial, sans-serif;
+font-family: 'Play', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
@@ -83,7 +76,6 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", times, serif;
   color: #000;
   margin-bottom: 1.5em;
   clear: both;
@@ -96,7 +88,6 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Playfair Display", times, serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -272,7 +263,6 @@ p {
   visibility: hidden;
   font-size: 26px;
   top: 2px;
-  font-family: "Playfair Display", times, serif;
 }
 #fh5co-logo > a:hover i {
   opacity: 0;
@@ -413,7 +403,6 @@ p {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Roboto", arial, sans-serif;
   font-size: 30px;
 }
 @media screen and (max-width: 768px) {
@@ -583,5 +572,3 @@ figure figcaption {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #ffffff;
 }
-
-/*# sourceMappingURL=style.css.map */
