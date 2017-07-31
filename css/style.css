@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 #logo {
@@ -140,15 +140,22 @@ p {
   position: relative;
 }
 
-.fh5co-heading {
+.heading {
   margin-bottom: 1.5em;
 }
-.fh5co-heading.padding-right {
-  padding-right: 1em;
+
+.face{
+  width: 300px;
+  float: right;
 }
+
+.heading img{
+  width: 300px;
+}
+
 @media screen and (max-width: 768px) {
-  .fh5co-heading.padding-right {
-    padding-right: 0em;
+  .face {
+      float: none;
   }
 }
 
