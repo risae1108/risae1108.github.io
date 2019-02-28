@@ -244,10 +244,10 @@ ul, li {
 
 #about{
   .two-column-image {
-    width: 33%;
+    width: 25%;
   }
   .two-column-desc {
-    width: 62%;
+    width: 70%;
   }
 }
 
@@ -307,6 +307,25 @@ ul, li {
     .card-wrapper {
       .card {
         width: 48%;
+        .card-caption-title {
+          font-size: 12px;
+        }
+        .card-caption-info {
+          font-size: 11px;
+        }
+        .card-caption-url {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #works {
+    .card-wrapper {
+      .card {
+        width: 95%;
         .card-caption-title {
           font-size: 12px;
         }

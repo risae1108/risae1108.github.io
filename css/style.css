@@ -181,9 +181,9 @@ ul, li {
   .section .section-title {
     font-size: 36px; } }
 #about .two-column-image {
-  width: 33%; }
+  width: 25%; }
 #about .two-column-desc {
-  width: 62%; }
+  width: 70%; }
 
 @media screen and (max-width: 767px) {
   #works .card-wrapper .card {
@@ -221,6 +221,15 @@ ul, li {
 @media screen and (max-width: 767px) {
   #works .card-wrapper .card {
     width: 48%; }
+    #works .card-wrapper .card .card-caption-title {
+      font-size: 12px; }
+    #works .card-wrapper .card .card-caption-info {
+      font-size: 11px; }
+    #works .card-wrapper .card .card-caption-url {
+      font-size: 11px; } }
+@media screen and (max-width: 480px) {
+  #works .card-wrapper .card {
+    width: 95%; }
     #works .card-wrapper .card .card-caption-title {
       font-size: 12px; }
     #works .card-wrapper .card .card-caption-info {
