@@ -252,7 +252,7 @@ ul, li {
 }
 
 @media screen and (max-width: 767px) {
-  #works {
+  .s-grid {
     .card-wrapper {
       .card {
         width: 48%;
@@ -270,7 +270,7 @@ ul, li {
   }
 }
 
-#works {
+.s-grid {
   .card-wrapper {
     padding: 20px 0;
     display: -webkit-box;
@@ -303,7 +303,7 @@ ul, li {
 }
 
 @media screen and (max-width: 767px) {
-  #works {
+  .s-grid {
     .card-wrapper {
       .card {
         width: 48%;
@@ -322,7 +322,7 @@ ul, li {
 }
 
 @media screen and (max-width: 480px) {
-  #works {
+  .s-grid {
     .card-wrapper {
       .card {
         width: 95%;

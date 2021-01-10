@@ -186,15 +186,15 @@ ul, li {
   width: 70%; }
 
 @media screen and (max-width: 767px) {
-  #works .card-wrapper .card {
+  .s-grid .card-wrapper .card {
     width: 48%; }
-    #works .card-wrapper .card .card-caption-title {
+    .s-grid .card-wrapper .card .card-caption-title {
       font-size: 12px; }
-    #works .card-wrapper .card .card-caption-info {
+    .s-grid .card-wrapper .card .card-caption-info {
       font-size: 11px; }
-    #works .card-wrapper .card .card-caption-url {
+    .s-grid .card-wrapper .card .card-caption-url {
       font-size: 11px; } }
-#works .card-wrapper {
+.s-grid .card-wrapper {
   padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,37 +204,37 @@ ul, li {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  #works .card-wrapper .card {
+  .s-grid .card-wrapper .card {
     width: 32%;
     margin-bottom: 50px; }
-    #works .card-wrapper .card .card-image {
+    .s-grid .card-wrapper .card .card-image {
       display: block;
       margin-bottom: 8px; }
-    #works .card-wrapper .card .card-caption-title {
+    .s-grid .card-wrapper .card .card-caption-title {
       font-size: 18px;
       font-weight: bold; }
-    #works .card-wrapper .card .card-caption-info {
+    .s-grid .card-wrapper .card .card-caption-info {
       font-size: 16px; }
-    #works .card-wrapper .card .card-caption-url {
+    .s-grid .card-wrapper .card .card-caption-url {
       font-size: 16px; }
 
 @media screen and (max-width: 767px) {
-  #works .card-wrapper .card {
+  .s-grid .card-wrapper .card {
     width: 48%; }
-    #works .card-wrapper .card .card-caption-title {
+    .s-grid .card-wrapper .card .card-caption-title {
       font-size: 12px; }
-    #works .card-wrapper .card .card-caption-info {
+    .s-grid .card-wrapper .card .card-caption-info {
       font-size: 11px; }
-    #works .card-wrapper .card .card-caption-url {
+    .s-grid .card-wrapper .card .card-caption-url {
       font-size: 11px; } }
 @media screen and (max-width: 480px) {
-  #works .card-wrapper .card {
+  .s-grid .card-wrapper .card {
     width: 95%; }
-    #works .card-wrapper .card .card-caption-title {
+    .s-grid .card-wrapper .card .card-caption-title {
       font-size: 12px; }
-    #works .card-wrapper .card .card-caption-info {
+    .s-grid .card-wrapper .card .card-caption-info {
       font-size: 11px; }
-    #works .card-wrapper .card .card-caption-url {
+    .s-grid .card-wrapper .card .card-caption-url {
       font-size: 11px; } }
 #skill .card-wrapper {
   width: 80%;
